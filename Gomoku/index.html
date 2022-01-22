@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" style="height: 100%">
+	<head>
+		<meta charset="utf-8">
+		<title>Five in a Row</title>
+		<!-- <link href="style.css" rel="stylesheet" -->
+		<!-- type="text/css"> -->
+	</head>
+	<body style="display: flex; flex-direction: column; height: 100%; align-items: center; /*justify-content: stretch*/">
+		<h1 style="text-align: center">Gomuko</h1>
+		<!-- <div>test</div> -->
+		<input id="Local" type="button" value="Local Mode" onclick="LocalPlayMode(); " />
+		<input id="Online" type="button" value="Online Mode" onclick="OnlinePlayMode();" />
+		<canvas id="Gomuko" width="700" height="700" style="flex: 1; height: 100%; width: 100%; max-width: 1000px;"></canvas>
+		<h3 style="text-align: center" id="TurnIdicator"> </h3>
+		<script src="Gomuko.js"></script>
+		</body>
+	</body>
+</html>

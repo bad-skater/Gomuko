@@ -1,0 +1,4 @@
+a) You will have to install "SimpleWebSocketServer" before running the python server.
+b) After the match is over, you will have to reload the page.
+c) There are 2 game modes - Local & Online. Online mode can be played after only the python server is up and running before launching/clicking on online mode.
+d) Local mode is played on the same browser window tab ( No need to run the server).
